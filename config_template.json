@@ -1,0 +1,277 @@
+{
+  "skill_info": {
+    "name": "industry-monitor",
+    "version": "2.0",
+    "description": "通用行业监控技能",
+    "author": "Your Name",
+    "created_date": "2026-02-09"
+  },
+  "company_info": {
+    "name": "您的公司名称",
+    "brand": "品牌名称",
+    "english_name": "Company Name",
+    "industry": "所属行业",
+    "description": "公司简介"
+  },
+  "competitors": {
+    "major": {
+      "description": "主要竞品（3-10家）",
+      "list": [
+        "竞品公司1",
+        "竞品公司2",
+        "竞品公司3"
+      ]
+    },
+    "emerging": {
+      "description": "新兴品牌（可选）",
+      "list": [
+        "新兴品牌1",
+        "新兴品牌2"
+      ]
+    },
+    "potential": {
+      "description": "潜在跨界入场者（可选）",
+      "list": [
+        "大公司1",
+        "大公司2"
+      ]
+    }
+  },
+  "keywords": [
+    {
+      "name": "本公司动态",
+      "search_terms": [
+        "公司名 最新",
+        "品牌名 今日",
+        "公司英文名 news",
+        "公司名 公告"
+      ],
+      "priority": "critical",
+      "enabled": true,
+      "description": "监控公司相关新闻、公告、媒体报道（48小时内）",
+      "time_keywords": ["最新", "今日", "昨日", "刚刚"]
+    },
+    {
+      "name": "主要竞品动态",
+      "search_terms": [
+        "竞品1 最新",
+        "竞品2 今日",
+        "竞品3 新闻"
+      ],
+      "priority": "critical",
+      "enabled": true,
+      "description": "主要竞品公司最新动态（48小时内）",
+      "time_keywords": ["最新", "今日", "昨日", "刚刚"]
+    },
+    {
+      "name": "新兴竞品动态",
+      "search_terms": [
+        "新兴品牌1 最新",
+        "新兴品牌2 动态"
+      ],
+      "priority": "high",
+      "enabled": true,
+      "description": "新兴竞品最新动态",
+      "time_keywords": ["最新", "今日", "昨日"]
+    },
+    {
+      "name": "跨界入场监控",
+      "search_terms": [
+        "大公司1 行业关键词",
+        "大公司2 行业关键词"
+      ],
+      "priority": "critical",
+      "enabled": true,
+      "description": "监控大公司是否入场该行业",
+      "time_keywords": ["最新", "今日", "发布", "推出"]
+    },
+    {
+      "name": "行业新闻",
+      "search_terms": [
+        "行业关键词 今日",
+        "行业关键词 最新",
+        "行业关键词 新闻"
+      ],
+      "priority": "high",
+      "enabled": true,
+      "description": "行业整体动态、市场趋势（48小时内）",
+      "time_keywords": ["今日", "最新", "昨日", "刚刚"]
+    },
+    {
+      "name": "技术前沿",
+      "search_terms": [
+        "行业技术 最新",
+        "行业技术 新技术",
+        "行业技术 突破"
+      ],
+      "priority": "high",
+      "enabled": true,
+      "description": "技术创新、前沿研究（48小时内）",
+      "time_keywords": ["最新", "新技术", "突破"]
+    },
+    {
+      "name": "学术论文",
+      "search_terms": [
+        "行业关键词 论文 最新",
+        "行业关键词 研究 发表",
+        "行业关键词 学术"
+      ],
+      "priority": "high",
+      "enabled": true,
+      "description": "学术研究最新成果",
+      "time_keywords": ["最新", "发表", "出版"]
+    },
+    {
+      "name": "新品发布",
+      "search_terms": [
+        "行业产品 新品",
+        "行业产品 发布",
+        "行业产品 上市"
+      ],
+      "priority": "high",
+      "enabled": true,
+      "description": "各品牌新品发布信息（48小时内）",
+      "time_keywords": ["发布", "上市", "推出", "亮相"]
+    },
+    {
+      "name": "政策法规",
+      "search_terms": [
+        "行业 政策 最新",
+        "行业 标准 发布",
+        "行业 法规 新规"
+      ],
+      "priority": "medium",
+      "enabled": true,
+      "description": "行业标准、政策法规最新动态",
+      "time_keywords": ["最新", "发布", "实施"]
+    },
+    {
+      "name": "市场数据",
+      "search_terms": [
+        "行业 市场 数据 最新",
+        "行业 销量 报告",
+        "行业 规模 统计"
+      ],
+      "priority": "medium",
+      "enabled": true,
+      "description": "市场规模、销售数据最新发布",
+      "time_keywords": ["最新", "今日", "发布"]
+    },
+    {
+      "name": "融资并购",
+      "search_terms": [
+        "行业 融资 最新",
+        "行业 并购 今日",
+        "行业 投资 新闻"
+      ],
+      "priority": "high",
+      "enabled": true,
+      "description": "融资、并购、投资最新消息",
+      "time_keywords": ["最新", "今日", "宣布"]
+    },
+    {
+      "name": "渠道合作",
+      "search_terms": [
+        "行业 合作 最新",
+        "行业 渠道 签约",
+        "行业 战略合作"
+      ],
+      "priority": "medium",
+      "enabled": true,
+      "description": "渠道拓展、战略合作最新动态",
+      "time_keywords": ["最新", "签约", "达成"]
+    },
+    {
+      "name": "用户反馈",
+      "search_terms": [
+        "行业产品 评测",
+        "行业产品 体验",
+        "行业产品 口碑"
+      ],
+      "priority": "medium",
+      "enabled": true,
+      "description": "用户评价、产品评测",
+      "time_keywords": ["最新", "今日"]
+    },
+    {
+      "name": "负面舆情",
+      "search_terms": [
+        "行业 召回",
+        "行业 质量问题",
+        "行业 投诉"
+      ],
+      "priority": "critical",
+      "enabled": true,
+      "description": "负面新闻、舆情监控",
+      "time_keywords": ["最新", "今日"]
+    }
+  ],
+  "schedule": {
+    "enabled": false,
+    "frequency": "daily",
+    "time": "09:00",
+    "timezone": "Asia/Shanghai"
+  },
+  "sources": {
+    "search_engine": "websearch",
+    "max_results_per_keyword": 10,
+    "total_search_limit": 30
+  },
+  "filters": {
+    "date_range": "48h",
+    "strict_time_filter": true,
+    "required_time_keywords": [
+      "最新", "今日", "昨日", "刚刚", "今天", "昨天",
+      "latest", "today", "yesterday", "just now",
+      "发布", "推出", "宣布", "公布",
+      "小时前", "分钟前", "天前"
+    ],
+    "exclude_keywords": [
+      "招聘", "求职", "二手", "转让"
+    ]
+  },
+  "output": {
+    "format": "markdown",
+    "save_path": "./reports/",
+    "filename_pattern": "report_{date}_{time}.md",
+    "include_citations": true,
+    "language": "zh-CN"
+  },
+  "alerts": {
+    "company_mention": {
+      "enabled": true,
+      "description": "本公司被提及时高亮"
+    },
+    "competitor_events": {
+      "enabled": true,
+      "keywords": ["融资", "并购", "新品", "专利", "获奖"],
+      "description": "竞品重大事件自动高亮"
+    },
+    "negative_news": {
+      "enabled": true,
+      "keywords": ["召回", "质量问题", "投诉", "处罚", "违规"],
+      "description": "负面新闻预警"
+    },
+    "crossover_entry": {
+      "enabled": true,
+      "keywords": ["进军", "布局", "入局", "推出", "发布"],
+      "description": "跨界入场预警"
+    },
+    "tech_breakthrough": {
+      "enabled": true,
+      "keywords": ["突破", "首创", "专利", "创新", "领先"],
+      "description": "技术突破预警"
+    }
+  },
+  "monitoring_focus": {
+    "company_priority": "critical",
+    "competitor_priority": "high",
+    "industry_priority": "medium",
+    "tech_priority": "high"
+  },
+  "customization": {
+    "custom_keywords": [],
+    "custom_alerts": [],
+    "custom_filters": []
+  }
+}

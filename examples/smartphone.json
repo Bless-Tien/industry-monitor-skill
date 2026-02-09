@@ -1,0 +1,91 @@
+{
+  "skill_info": {
+    "name": "industry-monitor",
+    "version": "2.0",
+    "example": "智能手机行业"
+  },
+  "company_info": {
+    "name": "XX科技",
+    "brand": "XX手机",
+    "english_name": "XX Tech",
+    "industry": "智能手机",
+    "description": "专注高端智能手机研发"
+  },
+  "competitors": {
+    "major": {
+      "description": "国内主流品牌",
+      "list": [
+        "小米",
+        "OPPO",
+        "vivo",
+        "华为",
+        "荣耀"
+      ]
+    },
+    "emerging": {
+      "description": "新兴品牌",
+      "list": [
+        "一加",
+        "realme",
+        "iQOO",
+        "红魔"
+      ]
+    },
+    "potential": {
+      "description": "潜在跨界者",
+      "list": [
+        "特斯拉",
+        "比亚迪",
+        "理想汽车",
+        "小鹏汽车"
+      ]
+    }
+  },
+  "keywords": [
+    {
+      "name": "本公司动态",
+      "search_terms": [
+        "XX科技 最新",
+        "XX手机 今日",
+        "XX Tech news",
+        "XX 发布"
+      ],
+      "priority": "critical",
+      "enabled": true
+    },
+    {
+      "name": "主要竞品动态",
+      "search_terms": [
+        "小米 最新",
+        "OPPO 今日",
+        "vivo 新闻",
+        "华为 动态",
+        "荣耀 发布"
+      ],
+      "priority": "critical",
+      "enabled": true
+    },
+    {
+      "name": "行业新闻",
+      "search_terms": [
+        "智能手机 今日",
+        "手机行业 最新",
+        "5G手机 新闻",
+        "折叠屏 动态"
+      ],
+      "priority": "high",
+      "enabled": true
+    },
+    {
+      "name": "技术前沿",
+      "search_terms": [
+        "手机芯片 最新",
+        "屏幕技术 突破",
+        "快充技术 新技术",
+        "影像技术 创新"
+      ],
+      "priority": "high",
+      "enabled": true
+    }
+  ]
+}
