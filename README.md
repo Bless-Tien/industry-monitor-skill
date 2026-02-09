@@ -1,5 +1,10 @@
 # Industry Monitor - 通用行业监控技能
 
+![Version](https://img.shields.io/badge/version-2.0-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Platform](https://img.shields.io/badge/platform-StepFun-purple)
+![Language](https://img.shields.io/badge/language-中文-red)
+
 > 一个强大的AI驱动的行业监控系统，适用于任何行业的竞争情报收集和分析
 
 ## 🌟 特性
