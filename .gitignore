@@ -1,0 +1,19 @@
+# 配置文件（用户自定义）
+config.json
+my_config.json
+
+# 报告文件
+reports/
+*.md
+!README.md
+!SKILL.md
+
+# 临时文件
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
